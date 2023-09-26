@@ -50,7 +50,7 @@ const Navbar = props => {
       position="fixed"
       as="nav"
       w="100%"
-      bg={useColorModeValue('#ffffff40', '#20202380')}
+      bg={useColorModeValue('#ffffff', '#20202380')}
       css={{ backdropFilter: 'blur(10px)' }}
       zIndex={2}
       {...props}
@@ -58,7 +58,9 @@ const Navbar = props => {
       <Container
         display="flex"
         p={2}
-        maxW="container.md"
+        pl={6}
+        pr={6}
+        maxW="100%"
         wrap="wrap"
         align="center"
         justify="space-between"
@@ -69,37 +71,35 @@ const Navbar = props => {
           </Heading>
         </Flex>
 
-        <Stack
-          direction={{ base: 'column', md: 'row' }}
-          display={{ base: 'none', md: 'flex' }}
-          width={{ base: 'full', md: 'auto' }}
-          alignItems="center"
-          flexGrow={1}
-          mt={{ base: 4, md: 0 }}
-        >
-          <LinkItem href="/works" path={path}>
-            Works
-          </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
-          </LinkItem>
-          <LinkItem href="https://uses.craftz.dog/">Uses</LinkItem>
-          <LinkItem
-            target="_blank"
-            href="https://github.com/craftzdog/craftzdog-homepage"
-            path={path}
-            display="inline-flex"
+        <Box flex={1}>
+          <Stack
+            direction={{ base: 'row', md: 'row' }}
             alignItems="center"
-            style={{ gap: 4 }}
-            pl={2}
+            justifyContent="flex-end" 
+            flexGrow={1}
+            mr={3}
           >
-            <IoLogoGithub />
-            Source
-          </LinkItem>
-        </Stack>
-
-        <Box flex={1} align="right">
-          <ThemeToggleButton />
+            <LinkItem href="/works" path={path}>
+              Works
+            </LinkItem>
+            <LinkItem href="/posts" path={path}>
+              Posts
+            </LinkItem>
+            <LinkItem href="https://uses.craftz.dog/">Uses</LinkItem>
+            {/* <LinkItem
+              target="_blank"
+              href="https://github.com/craftzdog/craftzdog-homepage"
+              path={path}
+              display="inline-flex"
+              alignItems="center"
+              style={{ gap: 4 }}
+              pl={2}
+            >
+              <IoLogoGithub />
+              Source
+            </LinkItem> */}
+            <ThemeToggleButton />
+          </Stack>
 
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
             <Menu isLazy id="navbar-menu">
