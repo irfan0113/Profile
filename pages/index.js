@@ -184,4 +184,4 @@ const Home = () => {
 }
 
 export default Home
-export { getServerSideProps } from '../components/chakra'
+// export { getServerSideProps } from '../components/chakra'
