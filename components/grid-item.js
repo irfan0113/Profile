@@ -1,14 +1,7 @@
 import NextLink from 'next/link'
 import Image from 'next/image'
-import {
-  Box,
-  Text,
-  LinkBox,
-  LinkOverlay,
-  Stack,
-  Container
-} from '@chakra-ui/react'
-import { Link, Heading, Button } from '@chakra-ui/react'
+import { Box, Text, LinkBox, LinkOverlay, Container } from '@chakra-ui/react'
+import { Link, Button } from '@chakra-ui/react'
 import { Global } from '@emotion/react'
 import { useState } from 'react'
 import { IoOpenOutline } from 'react-icons/io5'
@@ -31,7 +24,6 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
     </LinkBox>
   </Box>
 )
-
 
 export const WorkGridItem = ({ children, id, title, thumbnail }) => {
   const [isHovered, setIsHovered] = useState(false)

@@ -74,7 +74,7 @@ const Navbar = props => {
           <Stack
             direction={{ base: 'row', md: 'row' }}
             alignItems="center"
-            justifyContent="flex-end" 
+            justifyContent="flex-end"
             flexGrow={1}
             mr={3}
           >
@@ -82,10 +82,10 @@ const Navbar = props => {
               Works
             </LinkItem>
             <LinkItem href="/posts" path={path}>
-              Posts
+              Articles
             </LinkItem>
             <LinkItem href="https://uses.craftz.dog/">Uses</LinkItem>
-           
+
             <ThemeToggleButton />
           </Stack>
 
@@ -106,9 +106,6 @@ const Navbar = props => {
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/posts">
                   Posts
-                </MenuItem>
-                <MenuItem as={MenuLink} href="https://uses.craftz.dog/">
-                  Uses
                 </MenuItem>
                 <MenuItem
                   as={Link}
