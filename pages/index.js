@@ -8,7 +8,7 @@ import {
   Flex,
   useColorMode
 } from '@chakra-ui/react'
-import { BasicInfo } from './data'
+import { BasicInfo } from '../components/data'
 import Layout from '../components/layouts/article'
 import {
   IoLogoTwitter,

@@ -1,0 +1,11 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html",
+  "/works/worldcup": "pages/works/worldcup.js",
+  "/": "pages/index.js",
+  "/posts": "pages/posts.js",
+  "/works": "pages/works.js",
+  "/works/aspire": "pages/works/aspire.js"
+}
