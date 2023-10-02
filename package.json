@@ -1,6 +1,5 @@
 {
   "name": "irfan-homepage",
-  "homepage": "https://irfan0113.github.io/home",
   "version": "1.0.0",
   "description": "Irfan's website",
   "scripts": {
@@ -8,9 +7,7 @@
     "build": "next build",
     "start": "next start",
     "prettier": "prettier --write .",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "lint": "next lint"
   },
   "keywords": [],
   "author": "Muhammed Irfan",
