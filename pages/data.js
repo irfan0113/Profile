@@ -8,7 +8,7 @@ export const BasicInfo = {
   twitter: '',
   linkedin: '',
   instagram: '',
-  imageUrl: '/images/irfan.jpg'
+  imageUrl: '/images/irfan3.jpg'
 }
 
 export const AspireWork = {
