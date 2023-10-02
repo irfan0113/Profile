@@ -9,6 +9,7 @@
     "start": "next start",
     "prettier": "prettier --write .",
     "lint": "next lint",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "keywords": [],
