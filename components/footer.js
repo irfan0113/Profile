@@ -1,5 +1,5 @@
 import { Box } from '@chakra-ui/react'
-import { BasicInfo } from '../pages/data'
+import { BasicInfo } from './data'
 
 const Footer = () => {
   return (

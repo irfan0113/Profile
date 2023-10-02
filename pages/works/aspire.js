@@ -1,7 +1,7 @@
-import { Container, Badge, Text, Flex, Box } from '@chakra-ui/react'
+import { Container, Text, Flex, Box } from '@chakra-ui/react'
 import { Title, WorkImage } from '../../components/work'
 import Layout from '../../components/layouts/article'
-import { AspireWork } from '../data'
+import { AspireWork } from '../../components/data'
 
 const Work = () => (
   <Layout title="Inkdrop">

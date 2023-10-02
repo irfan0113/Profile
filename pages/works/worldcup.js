@@ -1,7 +1,7 @@
-import { Container, Badge, Text, Flex, Box } from '@chakra-ui/react'
+import { Container, Text, Flex, Box } from '@chakra-ui/react'
 import { Title, WorkImage } from '../../components/work'
 import Layout from '../../components/layouts/article'
-import { FifaWork } from '../data'
+import { FifaWork } from '../../components/data'
 
 const Work = () => (
   <Layout title="Fifa">
