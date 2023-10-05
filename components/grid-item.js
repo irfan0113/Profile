@@ -1,4 +1,3 @@
-import NextLink from 'next/link'
 import Image from 'next/image'
 import { Box, Text, LinkBox, LinkOverlay, Container } from '@chakra-ui/react'
 import { Link, Button } from '@chakra-ui/react'
@@ -51,7 +50,7 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => {
       >
         <Box flex="7">
           <LinkBox
-            as={NextLink}
+            // as={NextLink}
             href={`/works/${id}`}
             scroll={false}
             cursor="pointer"
@@ -79,12 +78,7 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => {
           </LinkBox>
         </Box>
         <Box>
-          <Link
-            href={`/works/${id}`}
-            target="_blank"
-            display="flex"
-            justifyContent="flex-end"
-          >
+          <Link href={`/works/${id}`} display="flex" justifyContent="flex-end">
             <Button
               variant="ghost"
               leftIcon={<IoOpenOutline size="24" />}
