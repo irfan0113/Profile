@@ -15,17 +15,17 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="aspire" title="SOC Analyst" thumbnail={thumbCyber}>
-            Aspire Zone Foundation
+          <WorkGridItem id="aspire" title="Aspire Zone Foundation" thumbnail={thumbCyber}>
+            SOC Analyst
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
             id="worldcup"
-            title="Fifa World Cup 2022"
+            title="Supreme Committee Consultant"
             thumbnail={thumbFifa}
           >
-            Supreme Committee
+            Fifa World Cup 2022
           </WorkGridItem>
         </Section>
       </SimpleGrid>

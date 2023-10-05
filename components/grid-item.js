@@ -51,11 +51,11 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => {
         <Box flex="7">
           <LinkBox
             // as={NextLink}
-            href={`/works/${id}`}
+            href={`/Profile/works/${id}`}
             scroll={false}
             cursor="pointer"
           >
-            <LinkOverlay as="div" href={`/works/${id}`}>
+            <LinkOverlay as="div" href={`/Profile/works/${id}`}>
               <Text
                 mt={2}
                 fontSize={40}
@@ -78,7 +78,7 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => {
           </LinkBox>
         </Box>
         <Box>
-          <Link href={`/works/${id}`} display="flex" justifyContent="flex-end">
+          <Link href={`/Profile/works/${id}`} display="flex" justifyContent="flex-end">
             <Button
               variant="ghost"
               leftIcon={<IoOpenOutline size="24" />}
