@@ -24,7 +24,7 @@ const Work = () => (
         </Box>
 
         <Box flex='4'>
-          <WorkImage src={FifaWork.imageUrl} alt="Inkdrop" />
+          <WorkImage src={`url(${FifaWork.imageUrl})`} alt="Inkdrop" />
         </Box>
       </Flex>
     </Container>

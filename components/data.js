@@ -8,7 +8,7 @@ export const BasicInfo = {
   twitter: '',
   linkedin: '',
   instagram: '',
-  imageUrl: 'https://github.com/irfan0113/Profile/tree/master/public/images/irfan3.jpg'
+  imageUrl: '/images/irfan3.jpg'
 }
 
 export const AspireWork = {
@@ -37,7 +37,7 @@ export const AspireWork = {
     `Finally, I've had the privilege of collaborating with national cybersecurity agencies. This partnership has allowed us to tap into a wealth of expertise and resources, ensuring that we are always at the forefront of cybersecurity best practices.`,
     `In conclusion, my role as a cybersecurity analyst at Aspetar Hospital, Aspire Academy, and Aspire Logistics has been an exciting journey filled with challenges and victories. Every day brings new lessons and opportunities to enhance our cybersecurity posture. Together with my dedicated team, I am committed to safeguarding our organization's digital assets and maintaining the trust of our stakeholders in an increasingly digital world.`
   ],
-  imageUrl: 'https://github.com/irfan0113/Profile/tree/master/public/images/aspire.png'
+  imageUrl: '/images/aspire.png'
 }
 
 export const FifaWork = {
@@ -64,5 +64,5 @@ export const FifaWork = {
     `Lastly, we performed routine risk analyses of services in all eight stadiums and implemented mitigating procedures based on the results. This continuous assessment and adjustment process ensured that our security measures remained effective throughout the event.`,
     `Securing the FIFA World Cup 2022 was an immense undertaking, but the dedication and expertise of our SOC Analysts team, in collaboration with various partners and agencies, made it possible. Our commitment to proactively identifying and mitigating threats, combined with the deployment of cutting-edge technologies and strategic partnerships, resulted in a World Cup with zero cybersecurity incidents—a testament to the power of comprehensive cybersecurity planning and execution on the world stage.`
   ],
-  imageUrl: 'https://github.com/irfan0113/Profile/tree/master/public/images/worldcup.png'
+  imageUrl: '/images/worldcup.png'
 }

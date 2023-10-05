@@ -24,7 +24,7 @@ const Work = () => (
         </Box>
 
         <Box flex='4'>
-          <WorkImage src={AspireWork.imageUrl} alt="Inkdrop" />
+          <WorkImage src={`url(${AspireWork.imageUrl})`} alt="Inkdrop" />
         </Box>
       </Flex>
     </Container>
