@@ -169,7 +169,7 @@ const Home = () => {
           {/* Image card */}
           <Box flex="3">
             <Image
-              src={`url(${BasicInfo.imageUrl})`}
+              src={BasicInfo.imageUrl}
               alt="Profile image"
               width="800"
               height="800"
